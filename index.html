@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Krub" rel="stylesheet">
+</head>
+<body onload="startTime()">
+    <section class = "wrap">
+       <!--Time displays here -->
+        <div id = "txtTime">
+
+        </div><!--End of Time display -->
+        
+        <div>
+            <h5>Set alarm</h5>
+            <!-- iNTRODUCE TIME, INPUT -->
+            <input type="datetime-local" class="inpTime" >
+            
+            <!-- Button -->
+            <button class="btnSet" onclick= "setAlarm (this)" value="on">Set Alarm</button>
+            
+            <div class = "hiddenText">The alarm will sound at <span class = "alarmTime"></span></div>
+            
+        </div>
+        <!-- alarm options -->
+        <div class="alarmOptions">
+            <button onclick="snooze()">Snooze</button>
+            <button onclick="stopAlarm()">Stop</button>
+        </div>
+    </section>
+<script type="text/javascript" src="js.js"></script>    
+</body>
+</html>

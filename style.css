@@ -1,0 +1,36 @@
+*{
+    font-family: 'Krub', sans-serif;
+    background-color: #563d7c;
+    color: #fff;
+}
+.wrap{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    top: 200px;
+    position: relative;
+    
+    
+}
+
+#txtTime{
+    font-size: 80px;
+    
+}
+#dayOrNight{
+    position: relative;
+    left: 330px;
+    top: -50px;
+    font-size: 20px;
+}
+
+.hiddenText{
+    display: none;
+}
+
+.showText{
+    display: block;
+}
+.alarmOptions{ 
+    display: none;
+}
