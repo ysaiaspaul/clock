@@ -39,7 +39,7 @@ function startTime() {
 }
 function setAlarm (button) {
     var ms = document.querySelector('.inpTime').valueAsNumber;
-
+    console.log('setting alarm');
     if(isNaN(ms)) {
         alert('Invalid time');
         return;
@@ -51,7 +51,6 @@ function setAlarm (button) {
 }
 
 function cancelAlarm(button) {
-
     button.setAttribute('onclick', 'setAlarm(this);');
     button.innerText = 'Set alarm';
 }

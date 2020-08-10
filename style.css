@@ -9,13 +9,12 @@
     margin: auto;
     top: 200px;
     position: relative;
-    
-    
+
 }
 
 #txtTime{
     font-size: 80px;
-    
+
 }
 #dayOrNight{
     position: relative;
@@ -31,6 +30,6 @@
 .showText{
     display: block;
 }
-.alarmOptions{ 
+.alarmOptions{
     display: none;
 }
